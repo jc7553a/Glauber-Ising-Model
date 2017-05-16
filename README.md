@@ -1,7 +1,7 @@
 # Glauber-Ising-Model
 Classical Glauber Ising Model I made with Professor Anzi Hu American University for her research on quantum modeling under effective temperature
 
-This model of this project was the well known Ising Model created by Physicist Ernst Ising. I simulated the interactions of the magnetic properties of atoms through the use of the monte carlo method. The focus of the project was to study how mathematically magnetic materials experience a phase transition from ferromagnetic to paramagnetic due to an increase in temperature. 
+This model of this project was the well known Ising Model created by Physicist Ernst Ising. I simulated the interactions of the magnetic properties of atoms through the use of the monte carlo method. The focus of the project was to study how mathematically magnetic materials experience a phase transition from ferromagnetism to paramagnetism due to an increase in temperature. This simulation was built off of glauber dynamics and is does not use the typical metropolis algorithm. The algorithm created here takes a more systematic approach and goes through the model atom by atom performing a monte carlo calculation. Where the metropolis algorithm performs calculations on random atoms in the model.
 
 This project was run on the American University Cluster, so I wouldn't try running it on a laptop that will not work due to the extremely large stack size and global variable size. 
 
